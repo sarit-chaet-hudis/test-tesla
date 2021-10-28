@@ -1,0 +1,29 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px solid red;
+}
+
+section {
+  height: 100vh;
+  width: 100%;
+}
+
+.model3 {
+  background-image: url("/assets/img/M3-Hero-LHD-US-D.jfif");
+  background-size: 100%;
+  background-position-y: 50%;
+}
+
+.safety {
+  background-image: url("/assets/img/model_3_safety_hero.png");
+  background-size: 100%;
+  background-position-y: 50%;
+}
+
+.performance {
+  background-image: url("/assets/img/lhd-performance-hero-desktop.jfif");
+  background-size: 100%;
+  background-position-y: 50%;
+}
