@@ -2,7 +2,40 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  border: 1px solid red;
+  /* border: 1px solid red; */
+  color: white;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 400;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: gotham-bold;
+  src: url("/assets/fonts/GothamSSm-Bold_Web.woff2");
+}
+
+@font-face {
+  font-family: gotham-book;
+  src: url("/assets/fonts/GothamSSm-Book_Web.woff2");
+}
+
+@font-face {
+  font-family: gotham-light;
+  src: url("/assets/fonts/GothamSSm-Light_Web.woff2");
+}
+
+@font-face {
+  font-family: gotham-medium;
+  src: url("/assets/fonts/GothamSSm-Medium_Web.woff2");
+}
+
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 section {
@@ -13,7 +46,15 @@ section {
 .model3 {
   background-image: url("/assets/img/M3-Hero-LHD-US-D.jfif");
   background-size: 100%;
-  background-position-y: 50%;
+  background-position-y: 35%;
+  font-family: gotham-medium;
+  text-align: center;
+}
+
+.model3 h1 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 240px;
 }
 
 .safety {
@@ -26,4 +67,147 @@ section {
   background-image: url("/assets/img/lhd-performance-hero-desktop.jfif");
   background-size: 100%;
   background-position-y: 50%;
+}
+
+.header {
+  position: sticky;
+  top: 0px;
+  padding: 10px;
+}
+
+.logo {
+  position: relative;
+  top: 10px;
+  left: 30px;
+  width: 120px;
+  fill: white;
+  float: left;
+}
+
+.top-nav {
+  width: fit-content;
+  margin: auto;
+}
+
+.top-nav li {
+  display: inline-block;
+  margin: 4px 15px;
+}
+
+.right-nav {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  margin: auto;
+  width: fit-content;
+}
+
+.right-nav li {
+  display: inline-block;
+  margin: 4px 15px;
+
+}
+
+.side-bar {
+  position: absolute;
+  top: 340px;
+  left: 8px;
+}
+
+.side-bar li {
+  list-style: none;
+  text-align: left;
+  border-width: 0px 0px 0px 2px;
+  border-style: solid;
+  border-color: rgb(106, 111, 124);
+  color: rgb(226, 228, 228, 0);
+  margin: 6px 0 0 6px;
+  padding: 0 0 0 6px;
+  font-size: 10px;
+  line-height: 24px;
+}
+
+.side-bar .white-border {
+  border-color: white;
+  border-width: 0px 0px 0px 3px;
+}
+
+.side-bar li:hover {
+  transition: color ease 0.2s;
+  color: rgb(226, 228, 228, 1);
+}
+
+.button-container {
+  float: left;
+  position: relative;
+}
+
+.order-button {
+  padding: 7px 30px;
+  border-radius: 23px;
+  border: 2px solid white;
+  font-size: 13px;
+}
+
+.order-button:hover {
+  cursor: pointer;
+
+  transition: background-color  ease 0.5s;
+  color: black;
+  background-color: white;
+}
+
+.clr {
+  clear: both;
+}
+
+.inline {
+  display: inline;
+}
+
+.dashboard {
+  position: relative;
+  bottom: -55%;
+  width: 100%;
+  width: fit-content;
+  margin: auto;
+}
+
+.dashboard h2 {
+  font-size: 28px;
+  line-height: 30px;
+  font-family: gotham-medium;
+  font-weight: 500;
+}
+
+.dashboard * {
+  margin: 5px 15px;
+}
+
+.speed {
+  float: left;
+}
+
+.speed-detail {
+  float: left;
+}
+
+.range {
+  float: left;
+}
+
+.motor {
+  float: left;
+}
+
+
+
+footer {
+  width: 100%;
+  position: absolute;
+  bottom: 15px;
+}
+
+.arrow {
+  font-size: 48px;
 }
