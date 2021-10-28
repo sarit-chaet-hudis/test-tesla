@@ -137,25 +137,7 @@ section {
   color: rgb(226, 228, 228, 1);
 }
 
-.button-container {
-  float: left;
-  position: relative;
-}
 
-.order-button {
-  padding: 7px 30px;
-  border-radius: 23px;
-  border: 2px solid white;
-  font-size: 13px;
-}
-
-.order-button:hover {
-  cursor: pointer;
-
-  transition: background-color  ease 0.5s;
-  color: black;
-  background-color: white;
-}
 
 .clr {
   clear: both;
@@ -188,8 +170,16 @@ section {
   float: left;
 }
 
-.speed-detail {
+.speed-detail1 {
+  /* background-color: cornflowerblue; */
   float: left;
+  width: 20px;
+  margin-top: 10px;
+}
+
+.speed-detail2 {
+  float: left;
+  
 }
 
 .range {
@@ -200,7 +190,25 @@ section {
   float: left;
 }
 
+.button-container {
+  float: left;
+  position: relative;
+}
 
+.order-button {
+  padding: 7px 30px;
+  border-radius: 23px;
+  border: 2px solid white;
+  font-size: 13px;
+}
+
+.order-button:hover {
+  cursor: pointer;
+
+  transition: background-color  ease 0.5s;
+  color: black;
+  background-color: white;
+}
 
 footer {
   width: 100%;
