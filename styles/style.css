@@ -34,6 +34,10 @@
   width: 0; /* Remove scrollbar space */
 }
 
+.scroll-snap-y {
+  scroll-snap-type: y proximity;
+}
+
 a:hover {
   cursor: pointer;
 }
