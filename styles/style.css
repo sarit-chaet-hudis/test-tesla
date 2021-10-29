@@ -234,6 +234,35 @@ footer {
   padding: 0px 50px;
 }
 
+.side-bar--safety {
+  position: absolute;
+  top: 1275px;
+  left: 8px;
+}
+
+.side-bar--safety li {
+  list-style: none;
+  text-align: left;
+  border-width: 0px 0px 0px 2px;
+  border-style: solid;
+  border-color: rgb(198,199,200);
+  color: rgb(128, 129, 228, 0);
+  margin: 6px 0 0 6px;
+  padding: 0 0 0 6px;
+  font-size: 10px;
+  line-height: 24px;
+}
+
+.side-bar--safety .dark-border {
+  border-color: rgb(24, 27, 33);
+  border-width: 0px 0px 0px 3px;
+}
+
+.side-bar--safety li:hover {
+  transition: color ease 0.2s;
+  color: rgb(24, 27, 33, 1);
+}
+
 .main-safety {
   width: 78%;
   height: 100vh;
