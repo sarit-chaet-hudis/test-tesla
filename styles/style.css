@@ -76,8 +76,8 @@ section {
 .logo {
   position: sticky;
   float: left;
-  top: 10px;
-  left: 30px;
+  top: 18px;
+  left: 50px;
   width: 120px;
   fill: white;
 }
@@ -227,19 +227,17 @@ footer {
 }
 
 .side-container {
-  width: 20%;
+  width: 22%;
   height: 100vh;
   float: left;
   background-color: white;
-  padding: 30px 50px;
+  padding: 0px 50px;
 }
 
 .main-safety {
-  width: 80%;
+  width: 78%;
   height: 100vh;
   float: right;
-  top: 0;
-  right: 0;
   background-image: url("/assets/img/model_3_safety_hero.png");
   background-size: 90%;
   /* background-color: rgb(242,242,242); */
@@ -251,9 +249,14 @@ footer {
 }
 
 .safety-text .light-font {
-  font-family: gotham-light;
+  
   font-size: 17px;
   line-height: 17px;
+}
+
+.light-font {
+  font-family: gotham-light;
+  font-weight: 400;
 }
 
 .safety-text {
@@ -262,12 +265,14 @@ footer {
   font-weight: 400;
   font-size: 14px;
   line-height: 21px;
+  margin-top: 28px;
 }
 
 .safety-text h1 {
   color: #181b21;
   font-size: 28px;
   line-height: 36px;
+  margin: 3px 0px 15px;
 }
 
 .impact-protection {
@@ -289,10 +294,10 @@ footer {
 }
 
 .grey-card {
-  background-color: rgb(226,228,228);
+  background-color: rgb(226, 228, 228);
   border-radius: 25px;
   padding: 15px;
-  margin: 35px 0px;
+  margin: 18px 0px;
 }
 
 .grey-card .card-title {
@@ -303,24 +308,69 @@ footer {
 
 .grey-card li {
   list-style: none;
-    background-color: yellowgreen;
-    margin: 15px 0;
+  background-color: yellowgreen;
+  margin: 10px 0;
 }
 
 .item {
   float: left;
+  font-family: gotham-bold;
 }
 
 .rating-list {
   width: 100%;
+  margin: 20px 5px ;
 }
 
 .rating-list .smaller {
   font-size: 8px;
   line-height: 8px;
-  float: none;
 }
 
 .rating-list .stars {
   float: right;
+  margin-right: 20px;
+  color: #393c41;
+  font-size: 17px;
+}
+
+.side-footer {
+  position: relative;
+  top: 220px;
+}
+
+.dark-button {
+  background-color: rgb(0, 0, 0, 0);
+  padding: 12px 30px;
+  border-radius: 23px;
+  border: 3px solid rgb(0, 0, 0);
+  font-size: 12px;
+  line-height: 14px;
+  font-weight: 500;
+  color: black;
+  vertical-align: middle;
+}
+
+.dark-button:hover {
+  transition: background-color ease 0.5s;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.plus {
+  background-image: url("/assets/img/plus-sign.png");
+  border-radius: 50%;
+  padding: 18px;
+  background-size: 40%;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  background-repeat: no-repeat;
+}
+
+.plus-container {
+  display: inline;
+  width: 40px;
+  height: 40px;
+  margin-bottom: -10px;
 }
