@@ -7,6 +7,8 @@
   line-height: 21px;
   font-weight: 400;
   scroll-behavior: smooth;
+  font-family: gotham-medium;
+
 }
 
 @font-face {
@@ -50,7 +52,6 @@ section {
   background-image: url("/assets/img/M3-Hero-LHD-US-D.jfif");
   background-size: 100%;
   background-position-y: 35%;
-  font-family: gotham-medium;
   text-align: center;
   color: white;
 }
@@ -197,6 +198,7 @@ section {
   font-size: 12px;
   line-height: 14px;
   font-weight: 500;
+  color: white;
 }
 
 .order-button:hover {
@@ -230,6 +232,7 @@ footer {
   height: 100vh;
   float: left;
   background-color: white;
+padding: 30px 50px;
 }
 
 .main-safety {
