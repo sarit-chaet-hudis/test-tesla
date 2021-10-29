@@ -8,7 +8,6 @@
   font-weight: 400;
   scroll-behavior: smooth;
   font-family: gotham-medium;
-
 }
 
 @font-face {
@@ -76,11 +75,11 @@ section {
 
 .logo {
   position: sticky;
+  float: left;
   top: 10px;
   left: 30px;
   width: 120px;
   fill: white;
-  float: left;
 }
 
 .top-nav {
@@ -146,8 +145,8 @@ section {
 .dashboard {
   position: relative;
   bottom: -55%;
-  width: 100%;
   width: fit-content;
+  height: 100px;
   margin: auto;
 }
 
@@ -232,7 +231,7 @@ footer {
   height: 100vh;
   float: left;
   background-color: white;
-padding: 30px 50px;
+  padding: 30px 50px;
 }
 
 .main-safety {
@@ -242,12 +241,33 @@ padding: 30px 50px;
   top: 0;
   right: 0;
   background-image: url("/assets/img/model_3_safety_hero.png");
-  background-position-x: 10%;
-  background-size: 95%;
+  background-size: 90%;
+  /* background-color: rgb(242,242,242); */
+  background-color: tomato;
 }
 
 .main-safety * {
   position: absolute;
+}
+
+.safety-text .light-font {
+  font-family: gotham-light;
+  font-size: 17px;
+  line-height: 17px;
+}
+
+.safety-text {
+  /* background-color: yellowgreen; */
+  color: #393c41;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.safety-text h1 {
+  color: #181b21;
+  font-size: 28px;
+  line-height: 36px;
 }
 
 .impact-protection {
@@ -266,5 +286,41 @@ padding: 30px 50px;
   top: 1600px;
   left: 1200px;
   background-color: tomato;
+}
 
+.grey-card {
+  background-color: rgb(226,228,228);
+  border-radius: 25px;
+  padding: 15px;
+  margin: 35px 0px;
+}
+
+.grey-card .card-title {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+}
+
+.grey-card li {
+  list-style: none;
+    background-color: yellowgreen;
+    margin: 15px 0;
+}
+
+.item {
+  float: left;
+}
+
+.rating-list {
+  width: 100%;
+}
+
+.rating-list .smaller {
+  font-size: 8px;
+  line-height: 8px;
+  float: none;
+}
+
+.rating-list .stars {
+  float: right;
 }
