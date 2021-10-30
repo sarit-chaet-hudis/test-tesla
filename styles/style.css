@@ -110,7 +110,7 @@ section {
 .side-bar li {
   list-style: none;
   text-align: left;
-  border-width: 0px 0px 0px 2px;
+  border-width: 0px 0px 0px 1px;
   border-style: solid;
   border-color: rgb(106, 111, 124);
   color: rgb(226, 228, 228, 0);
@@ -254,7 +254,7 @@ footer {
 .side-bar--safety li {
   list-style: none;
   text-align: left;
-  border-width: 0px 0px 0px 2px;
+  border-width: 0px 0px 0px 1px;
   border-style: solid;
   border-color: rgb(198, 199, 200);
   color: rgb(128, 129, 228, 0);
@@ -464,4 +464,10 @@ footer {
 .down-dash {
   position: relative;
   top: 78%;
+}
+
+.side-bar--perf {
+  position: absolute;
+  top: 2210px;
+  left: 8px;
 }
