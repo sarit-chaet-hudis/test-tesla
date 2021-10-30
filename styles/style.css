@@ -85,7 +85,15 @@ section {
 
 .top-nav li {
   display: inline-block;
-  margin: 7px 16px;
+  padding: 7px 14px;
+  border-radius: 15px;
+  transition: background-color ease 0.5s;
+  background-color: rgb(117,123,131,0);
+}
+
+.top-nav li:hover {
+  transition: background-color ease 0.5s;
+  background-color: rgb(117,123,131,1);
 }
 
 .right-nav {
@@ -98,7 +106,15 @@ section {
 
 .right-nav li {
   display: inline-block;
-  margin: 4px 15px;
+  padding: 7px 14px;
+  border-radius: 15px;
+  transition: background-color ease 0.5s;
+  background-color: rgb(117,123,131,0);
+}
+
+.right-nav li:hover {
+  transition: background-color ease 0.5s;
+  background-color: rgb(117,123,131,1);
 }
 
 .side-bar {
