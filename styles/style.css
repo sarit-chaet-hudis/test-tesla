@@ -84,12 +84,12 @@ section {
 
 .top-nav {
   width: fit-content;
-  margin: auto;
+  margin-left: 34%;
 }
 
 .top-nav li {
   display: inline-block;
-  margin: 4px 15px;
+  margin: 7px 16px;
 }
 
 .right-nav {
@@ -146,7 +146,7 @@ section {
   position: relative;
   bottom: -55%;
   width: fit-content;
-  height: 100px;
+  height: fit-content;
   margin: auto;
 }
 
@@ -163,6 +163,7 @@ section {
 
 .speed {
   float: left;
+  vertical-align: middle;
 }
 
 .speed-detail1 {
@@ -178,13 +179,19 @@ section {
 
 .range {
   float: left;
+  vertical-align: middle;
+
 }
 
 .motor {
   float: left;
+  vertical-align: middle;
+
 }
 
 .button-container {
+  vertical-align: middle;
+
   float: left;
   position: relative;
 }
@@ -268,9 +275,12 @@ footer {
   height: 100vh;
   float: right;
   background-image: url("/assets/img/model_3_safety_hero.png");
-  background-size: 90%;
-  /* background-color: rgb(242,242,242); */
-  background-color: tomato;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position-x: -200px;
+  background-position-y: 20px;
+
+  background-color: rgb(242,242,242);
 }
 
 .main-safety * {
@@ -305,21 +315,32 @@ footer {
 }
 
 .impact-protection {
-  top: 1200px;
-  left: 700px;
-  background-color: tomato;
+  top: 1100px;
+  left: 800px;
+  height: 250px;
+  padding: 3px;
+border-style: solid;
+border-color: black;  
+border-width: 0 0 0 3px;
 }
 
 .rigid-structure {
-  top: 1100px;
-  left: 1200px;
-  background-color: tomato;
-}
+  top: 1000px;
+  left: 1115px;
+  height: 190px;
+  padding: 0px 0 40px 5px;
+border-style: solid;
+border-color: black;  
+border-width: 0 0 0 3px;}
 
 .rollover-risk {
-  top: 1600px;
-  left: 1200px;
-  background-color: tomato;
+  top: 1500px;
+  left: 1170px;
+  height: 180px;
+  padding: 160px 0 0 3px;
+border-style: solid;
+border-color: black;  
+border-width: 0 0 0 3px;
 }
 
 .grey-card {
